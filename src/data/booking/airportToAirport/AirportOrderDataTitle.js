@@ -1,0 +1,26 @@
+const AirportOrderDataTitle = [
+  "AWB Number* ",
+  "Booking Date",
+  "BillTo Name",
+  // "Navigate To",
+  "Client",
+  "Coloader",
+  // "Origin",
+  // "Destination",
+  // "Shipper*",
+  // "Consignee*",
+  // "Genrate Pdf",
+  // "Manifest Pdf",
+  // "Runsheet No.",
+  "Created By",
+  // "Is Completed",
+  // "Cold Chain",
+  // "Delivered",
+  // "Total Quantity",
+  // "Current Branch",
+  // "Docket Entry",
+  // "Is Manifested",
+  // "Delivery Type",
+];
+
+export default AirportOrderDataTitle;

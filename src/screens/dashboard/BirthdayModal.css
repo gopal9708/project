@@ -1,0 +1,144 @@
+#BirthdayModal{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: rgb(255, 255, 255);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(255, 255, 255);
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(252, 251, 251);
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(255, 254, 253);
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: rgb(250, 250, 250);
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: rgb(255, 255, 255);
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color: rgb(255, 255, 255);
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color: rgb(255, 255, 255);
+}
+
+.swiper-slide:nth-child(9n) {
+  background-color: rgb(255, 255, 255);
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: rgb(255, 255, 255);
+}
+
+
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+.card{
+/* border-radius: 25px; */
+background-color: #FFF;
+}
+.image-content,
+.card-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px 14px;
+}
+.image-content{
+position: relative;
+row-gap: 5px;
+padding: 25px 0;
+top: 38px;
+}
+.overlay{
+position: absolute;
+left: -44px;
+top: -11px;
+height: 90%;
+width: 200%;
+background-color: #4070F4;
+border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+content: '';
+position: absolute;
+right: -22px;
+bottom: -40px;
+height: 40px;
+width: 40px;
+background-color: #4070F4;
+}
+.overlay::after{
+border-radius: 0 25px 0 0;
+background-color: #FFF;
+}
+.card-image{
+position: relative;
+height: 150px;
+width: 150px;
+border-radius: 50%;
+background: #FFF;
+padding: 3px;
+}
+.card-image .card-img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+border-radius: 50%;
+border: 4px solid #4070F4;
+}
+.name{
+font-size: 27px;
+font-weight: 500;
+color: #010101;
+font-family: 'Poppins', sans-serif;
+}
+.description{
+font-size: 15px;
+color: #323232;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+

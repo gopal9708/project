@@ -1,0 +1,183 @@
+/* .App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  table {
+  border: 2px solid forestgreen;
+  width: 800px;
+  height: 200px;
+  }
+  
+  th {
+  border-bottom: 1px solid black;
+  }
+  
+  td {
+  text-align: center;
+  }
+   */
+// * {
+//     padding: 0;
+//     margin: 0;
+// }
+
+// @page {
+//   size: auto;
+//   margin: 0;
+// }
+
+// For A4 Landscape
+// @media print {
+//     body {
+//       zoom: 105%;
+//     }
+//     table {
+//         page-break-inside: avoid;
+//     }
+// }
+
+// For A5 Landscape
+// @media print {
+//     body {
+//       zoom: 85%;
+//     }
+//     table {
+//         page-break-inside: avoid;
+//     }
+//   }
+
+// For A4 Porttrait
+// @media print {
+//     body {
+//       zoom: 85%;
+//     }
+//     table {
+//         page-break-inside: avoid;
+//     }
+//   }
+
+// For A5 Porttrait
+// @media print {
+//     body {
+//       zoom: 65%;
+//     }
+//     table {
+//         page-break-inside: avoid;
+//     }
+//   }
+
+// For A4 and A5 Potrait
+// @page {
+//     size: 25cm 35.7cm;
+//     margin: 5mm 5mm 5mm 5mm; /* change the margins as you want them to be. */
+
+// }
+
+/* @page {
+    size: 148mm 210mm;
+  } */
+/* @media print {
+    @page {
+        size: A5 portrait;
+    }
+  } */
+
+//   @media print {
+//     body {transform: scale(8.5);}
+
+//   }
+
+// .left {
+//     float: left;
+//     // padding-left: 20px;
+//     /* text-align: center; */
+//     font-size: 16px;
+//     letter-spacing: 1.5px;
+//     line-height: 30px;
+//     margin-top: 20px;
+//     margin-bottom: 20px;
+// }
+
+// .leftdata {
+//     float: left;
+//     padding-left: 20px;
+
+//     font-size: 20px;
+//     letter-spacing: 1.5px;
+//     line-height: 30px;
+//     margin-top: 20px;
+//     margin-bottom: 20px;
+// }
+// .right {
+
+//     float: right;
+//     /* display:inline-block; */
+//     /* text-align: center; */
+//     padding-right: 20px;
+//     font-size: 16px;
+//     letter-spacing: 1.5px;
+//     line-height: 30px;
+//     margin-bottom: 50px;
+//     margin-top: 20px;
+// }
+
+// .rightdata {
+
+//     float: right;
+//     /* display:inline-block; */
+//     padding-right: 10px;
+//     font-size: 20px;
+//     letter-spacing: 1.5px;
+//     line-height: 30px;
+//     margin-bottom: 50px;
+//     margin-top: 20px;
+// }
+
+// h1 {
+//     text-align: center;
+//     margin-top: 10px;
+//     color: rgb(116, 113, 113);
+//     font-family: sans-serif;
+
+// }
+
+// h3 {
+//     text-align: center;
+//     margin-bottom: 25px;
+//     color: rgb(116, 113, 113);
+//     font-family: sans-serif;
+// }
+
+// td {
+//     text-align: center;
+//     border: 0.5px solid black;
+//     padding: 0.5rem;
+
+// }
+
+// table {
+//     border: 1px solid black;
+//     /* border-spacing: 5px; */
+//     border-collapse: collapse;
+//     border-spacing: 0.5rem;
+
+// }
+
+th {
+  border: 0.5px solid black;
+  padding: 0.5rem;
+  background: rgb(211, 208, 208);
+  color: black;
+  text-align: center;
+  // display: table-cell;
+}
+
+// hr {
+//     color: rgb(211, 208, 208);
+//     /* padding: 0.5rem; */
+//     /* border-bottom: 1px solid black ; */
+// }

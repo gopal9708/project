@@ -1,0 +1,90 @@
+/* TO Modify Scroll Bar */
+.custom-scrollbars__content {
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.custom-scrollbars__content::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Chart Section */
+/* .header_card_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2px;
+} */
+
+.dashboard {
+  background-color: #0074d9;
+color: #7fdbff;
+}
+
+.dashboard.dark {
+ background-color:  #001f3f;
+  color: #4d4d4d;
+}
+
+.dashboard.light {
+  background-color: #0074d9;
+  color: #7fdbff;
+}
+
+/* Use the variables in your styles */
+.content {
+  background-color: #001f3f;
+  color: #4d4d4d;
+}
+
+
+/* For Notification */
+.timline_heading {
+  /* background-color: rgb(255, 255, 255); */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  /* border-bottom: 1px solid rgb(223, 223, 223); */
+  /* background-color: #cbcec6; */
+  margin: 8px;
+  height: 30px;
+}
+.notification_Card_container {
+  padding: 12px;
+  border-radius: 5px;
+}
+.notification_row {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 15px;
+}
+.notification_row1 {
+  justify-content: space-between;
+  display: flex;
+}
+.notity_card {
+  cursor: pointer;
+}
+.notity_card:hover {
+  /* border: 1px solid; */
+  /* padding: 10px; */ 
+  box-shadow: 5px 10px 5px #d8d3d3;
+  border-radius: 6px;
+}
+
+/* .custom_modal {
+  max-width: 180%;
+ 
+} */
+
+@media screen and (max-width: 768px) {
+  .notity_card {
+    flex-basis: 45%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .notity_card {
+    flex-basis: 90%;
+  }
+}

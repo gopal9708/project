@@ -1,0 +1,22 @@
+.responsive-div {
+  position: relative;
+  width: 100%;
+  padding-top: 8.25%; /* 16:9 aspect ratio */
+}
+
+.responsive-child {
+  cursor: pointer;
+  position: absolute;
+  color: rgb(126, 126, 168);
+  right: 8px;
+  top: 12%;
+}
+
+@media (max-width: 768px) {
+  .responsive-child {
+    right: 5%;
+    top: 5%;
+  }
+}
+  
+  

@@ -1,0 +1,220 @@
+@page {
+  size: 25cm 35.7cm;
+  margin: 5mm 5mm 5mm 5mm; /* change the margins as you want them to be. */
+}
+table {
+  font-size: 8px;
+}
+
+table,
+th,
+td {
+  border: 2px solid #01185c;
+  border-collapse: collapse;
+}
+
+img {
+  width: 100px;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #01185c4f;
+  text-align: center;
+  margin: 2px;
+  height: 1px;
+  width: 3px;
+}
+
+.main {
+  background-color: #01185c4f;
+  text-align: center;
+  margin: 4px;
+  height: 1px;
+  width: 5px;
+}
+
+.height {
+  margin-top: 1px;
+  height: 1px;
+  width: 3px;
+}
+
+.text-a {
+  text-align: center;
+}
+
+.data {
+  display: flex;
+}
+
+.logo-des {
+  margin-top: 1px;
+  float: right;
+}
+
+.tab {
+  width: 120mm;
+  height: min-content;
+  display: flex;
+  /* Border outside table*/
+}
+
+table {
+  font-size: 11px;
+  table-layout: fixed;
+}
+
+table,
+th,
+td {
+  border: 2px solid #01185c;
+  border-collapse: collapse;
+}
+
+.row1 {
+  margin-top: 0px;
+  margin-right: 0%;
+  display: flex;
+  float: left;
+  height: 140px;
+  width: 40px;
+}
+
+.row2 {
+  display: flex;
+  position: relative;
+}
+
+.row2 .local {
+  flex: 1;
+}
+
+.row2 .box {
+  flex: 1;
+  border: 1px solid black;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: 2px;
+}
+
+img {
+  width: 100px;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.row3 {
+  display: block;
+
+  overflow: hidden;
+}
+
+.row3 .box-pri {
+  border: 1px solid black;
+
+  text-align: center;
+
+  display: block;
+  float: left;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #01185c4f;
+  text-align: center;
+  font-weight: bold;
+}
+
+.row4 {
+  display: flex;
+}
+
+.row4 .tc1 {
+  flex: 1;
+}
+
+.row4 .tc2 {
+  flex: 1;
+}
+
+.text-a {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+.text-a {
+  height: 5mm;
+}
+
+.logo {
+  float: left;
+  margin-left: 35px;
+  margin-top: -17px;
+}
+
+.column1 {
+  float: right;
+  margin-top: -10px;
+  margin-right: 15px;
+}
+
+p.term {
+  font-weight: 900;
+}
+
+.data {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 3mm;
+}
+
+.consignor {
+  text-align: center;
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.consignor1 {
+  text-align: center;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.consignee {
+  text-align: center;
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#qr {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inv {
+  background-color: #01185c4f;
+}
+
+// @page {
+//   size: auto;
+//   margin: 0;
+// }

@@ -1,0 +1,153 @@
+.sidebar-conatiner {
+  color: #a6b0cf;
+  p {
+    margin: 0;
+  }
+  // position: absolute;
+
+  // min-width: 246px;
+  // width: "100vw";
+  overflow-y: auto;
+  min-height: 100vh;
+  z-index: 1;
+  top: 0;
+  background: #2a3042;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+  @media (max-width: 1200px) {
+    min-width: 250px;
+  }
+  .sidebar {
+    margin-top: 1.3rem;
+    h5 {
+      text-align: center;
+      color: white;
+    }
+  }
+
+  nav {
+    margin: 2rem 1rem;
+    .dropdown {
+      margin-top: 1rem;
+
+      cursor: pointer;
+      p {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        padding: 0 18px;
+        color: #cfd3e0;
+      }
+
+      .dropdownMenu {
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        a {
+          margin: 0.25rem 0;
+        }
+        display: none;
+      }
+      #active {
+        display: inline-flex;
+      }
+    }
+  }
+
+  .toggel {
+    position: relative;
+    left: 270px;
+    top: 20px;
+    p {
+      position: absolute;
+      padding: 10px;
+      background-color: grey;
+      color: white;
+      font-weight: 500;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+  }
+
+  a {
+    // color: #a6b0cf;
+    color: #cfd3e0;
+
+    &:hover {
+      color: white;
+      // font-size: small;
+      // background-color: #000;
+    }
+  }
+}
+
+//
+//
+//
+//
+
+.hz-navbar {
+  margin-bottom: 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .dropdown {
+    p {
+      margin: 0 2rem;
+      cursor: pointer;
+    }
+    #active {
+      display: flex;
+    }
+
+    .dropdownMenu {
+      position: absolute;
+      //
+      background: #ffffff;
+      border-radius: 0.25rem;
+
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+      animation-name: DropDownSlide;
+      animation-duration: 0.3s;
+      animation-fill-mode: both;
+      //
+      z-index: 10;
+      top: 40px;
+      left: -40px;
+      width: 200px;
+      padding: 10px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      a {
+        padding: 5px;
+        color: #2a3042;
+        &:hover {
+          color: #4458b8;
+        }
+      }
+      display: none;
+    }
+  }
+}
+
+//
+.sidebar-closed {
+  position: fixed;
+  top: 14px;
+  z-index: 100000;
+  left: 15px;
+}
+.sidebar-oepn {
+  position: fixed;
+  top: 14px;
+  // left: 258px;
+  z-index: 100000;
+}
+
+#hide {
+  display: none;
+}

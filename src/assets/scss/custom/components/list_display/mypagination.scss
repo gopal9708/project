@@ -1,0 +1,23 @@
+.arrow_style {
+  font-size: 15px;
+}
+
+.active_arrow {
+  padding: 7px 12.9px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active_arrow:hover {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: $primary;
+  color: white;
+}
+
+.space_between {
+  display: flex;
+  flex-direction: "row";
+  justify-content: space-between;
+  margin: 20px 0px;
+}

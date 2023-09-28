@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main__body_div {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid black;
+  padding: 12px;
+}
+.head_title {
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sansSerif;
+  font-weight: 300;
+  font-size: 44px;
+}
+.time_main_div {
+  margin: 12px;
+  padding: 12px;
+}
+.current_time_div {
+  font-size: 28px;
+  margin: 8px;
+}
+.action_btn_container {
+}
+
+.clock_in_btn {
+  background: green;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 40%;
+  margin: 20px;
+  padding: 10px;
+  border: none;
+}
+
+.clock_in_btn:hover {
+  font-weight: 400;
+  background: white;
+  color: green;
+  border: 3px solid green;
+}
+.clock_out_btn {
+  background: red;
+  color: white;
+  font-size: 18px;
+  width: 40%;
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.clock_out_btn:hover {
+  font-weight: 400;
+  background: white;
+  color: red;
+  border: 3px solid red;
+}
+
+.break_in_btn {
+}
+
+.break_out_btn {
+}
+
+@media screen and (max-width: 480px) {
+  .clock_in_btn {
+    width: 75%;
+  }
+  .clock_out_btn {
+    width: 75%;
+  }
+  .current_time_div {
+    font-size: 20px;
+  }
+}

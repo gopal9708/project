@@ -1,0 +1,22 @@
+@import "./header";
+@import "./sidebar";
+@import "./formSection";
+
+.CreateManifest {
+  label {
+    font-size: 14px;
+  }
+}
+
+.container {
+  margin-top: 28px;
+}
+table {
+  tbody {
+    tr {
+      &:hover {
+        background-color: #f7f7f7a1;
+      }
+    }
+  }
+}

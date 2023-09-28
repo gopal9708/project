@@ -1,0 +1,109 @@
+/* Apply styles to the outer container */
+.brCard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Apply styles to the card */
+  .brCard {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+  }
+  .container_upper{
+    background-color: rgb(106, 106, 241);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: -27px;
+    right: 21px;
+    width: 140px;
+    color: white;
+    height: 30px;
+    font-family: inherit;
+    align-items: center;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);   
+    font-weight: bold;
+   font-size: 13px;
+  }
+  
+  /* Apply styles to the card heading */
+  .brCard h4 {
+    font-family: 'Gill Sans Extrabold', sans-serif;
+    margin-top: -23px;
+    padding: 2px;
+   font-weight: bold;
+   font-size: 15px;
+
+  }
+  
+  /* Apply styles to the row container */
+  .tow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2px;
+  }
+  
+  /* Apply styles to the column container */
+  .lumn {
+    flex: 1;
+    margin: 2px;
+  }
+  
+  /* Apply styles to the boxes */
+  .box {
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Gill Sans Extrabold', sans-serif;
+    height: 60px;
+    margin-bottom: 6px;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+    
+  }
+
+  
+  /* Apply styles to box 1 */
+  .box-1 {
+    background-color:#769bff ;
+    color: white;
+    align-items: center;
+    display: grid;
+}
+  
+  
+  /* Apply styles to box 2 */
+  .box-2 {
+    background-color: #E14D2A;
+    color: white;
+    align-items: center;
+    display: grid;
+  }
+  
+  /* Apply styles to box 3 */
+  .box-3 {
+    background-color: #73777B;
+    color: white;
+    align-items: center;
+    display: grid;
+   
+  }
+  
+  /* Apply styles to box 4 */
+  .box-4 {
+    background-color: #D0C9C0;
+    color: white;
+    align-items: center;
+    display: grid;
+  
+  }
+  

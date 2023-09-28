@@ -1,0 +1,82 @@
+.Dash_card {
+  /* display: flex;
+    flex-direction: column; */
+  flex-wrap: wrap;
+  background: #ffffff;
+  border-radius: 6px;
+  /* overflow: hidden; */
+  box-shadow: 0px 1px 1px 2px rgba(201, 198, 198, 0.2);
+  margin: 20px;
+  width:100%;
+  height: 13vh;
+  position: relative;
+}
+
+.card-content1 {
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-size: 28px;
+ 
+  /* display: inline-block; */
+  justify-content: center;
+}
+
+.card-content {
+  /* color: white; */
+  text-align: center;
+  padding: 1em;
+  font-size: 28px;
+  align-items: center;
+  /* display: inline-block; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-ti {
+  /* text-align: right; */
+  font-size: 19px;
+  margin: -21px;
+  margin-right: -16px;
+}
+
+.card-description {
+  text-align: right;
+  color: rgb(149, 144, 144);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.Dash_card1 {
+  max-width: 90%;
+  height: 69px;
+  position: absolute;
+  border-radius: 12px;
+  color: white;
+  left: 20%;
+  top: -35%;
+  transform: translateX(-50%);
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+  .Dash_card1,
+  .card-content {
+    flex: 0 0 calc(100% - 20px);
+  }
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+  .Dash_card1 {
+    max-width: 100%;
+    height: auto;
+    position: static;
+    border-radius: 0;
+    transform: none;
+
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}

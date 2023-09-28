@@ -1,0 +1,91 @@
+#table_container {
+  background-color: red;
+  background: yellow;
+  position: relative;
+}
+
+#ledger_search {
+  position: absolute;
+  margin-top: 150px;
+  top: 0;
+  right: 0;
+}
+
+.sl-column {
+  width: 3%;
+  background: "#dfd4d4";
+  cursor: alias;
+}
+
+.mode-column {
+  width: 5%;
+  height: 100%; /* Adjust the width value as per your requirements */
+}
+.tvno-column {
+  width: 12%;
+}
+.amount-column {
+  width: 14%;
+}
+
+
+// for ledger drop down 
+.select_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+.select_box_container {
+    background: white;
+    // width: "300px",
+    // minWidth: "240px",
+    // borderRadius: "",
+    border: 1px solid gray;
+}
+
+.select_itm {
+  padding: 3.5px;
+    // borderBottom: "1px solid gray",
+    // boxShadow: "rgba(0, 0, 0, 0.25) 0px 25px 50px -12px",
+    // padding: "4px",
+}
+  .select_itm:hover {
+    background: #d2e0fa;
+    &.selected {
+      // Styles for selected items
+      background-color: #d2e0fa;
+    }
+  
+    &.not {
+      // Styles for non-selected items
+      background-color: blue;
+    }
+  }
+
+  .data_container{
+    color: black;
+    overflow-y: scroll;
+    text-align: center;
+      cursor: pointer;
+      background: "white";
+    //   // height: data_list_is.length === 0 ? "100px" : "260px",
+      max-height: 260px;
+      margin: 4px;
+      border: 2px solid #bab6b6;
+      border-radius: 3px;
+
+  }
+}
+
+
+  .data_container::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar */
+  }
+  
+  .data_container::-webkit-scrollbar-thumb {
+    background-color: gray; /* Color of the scrollbar thumb */
+    border-radius: 4px; /* Rounded corners for the thumb */
+  }

@@ -1,0 +1,232 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+$const-clr: hsl(213, 100%, 95%);
+.main-header {
+  font-size: 20px; //25px
+  font-weight: 500;
+  padding-bottom: 12px; //15px
+}
+.header {
+  // background-color: #E7F2FF;
+  background-color: $const-clr;
+  border-bottom: 1.5px solid #d3d3d3;
+  padding: 6px; //10px
+}
+.header-text-icon {
+  justify-content: space-between;
+  display: flex;
+}
+.header-add-icon {
+  background-color: $const-clr;
+  font-size: 20px; //23px
+  cursor: pointer;
+}
+.header-text {
+  font-size: 16px; //18px
+  font-weight: 500;
+}
+.input::placeholder {
+  font-size: 11px; //13px
+}
+.header-child {
+  font-size: 13.5px; //16px
+  margin-bottom: 0.4rem;
+  // color:#05375A;
+}
+
+.footer_btn {
+  background-color: #e7f2ff;
+  border-bottom: 1.5px solid #d3d3d3;
+  padding: 0px;
+  justify-content: right;
+  display: flex;
+  border-radius: 5px;
+}
+.error_message {
+  color: "red";
+  background-color: red !important;
+}
+.input-box {
+  font-size: 12.5px;
+}
+
+.btn-header {
+  background: $const-clr;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px solid #d3d3d3;
+}
+
+.btn-subheader {
+  background: $const-clr;
+  display: flex;
+}
+.btn-icon {
+  background: $const-clr;
+  padding: 8px;
+}
+.footer-img {
+  background-color: #556ee6;
+  width: 100%;
+}
+.link-text {
+  font-size: 12px;
+  color: purple;
+  cursor: pointer;
+}
+.icon {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.link-img {
+  justify-content: right;
+  display: flex;
+}
+
+.multi-input {
+  margin-bottom: 18px;
+}
+
+.multi_btn {
+  background: white;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 13px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 13px;
+  cursor: pointer;
+  width: "100%";
+}
+.multi_btn:hover {
+  // background-color: #C4D7FE;
+  border: 1px solid #d3d3d3;
+  border-bottom: 1px solid white;
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 6px;
+  cursor: pointer;
+}
+.footer-text:hover {
+  background-color: #c4d7fe;
+}
+
+#a {
+  border: 1px solid #d3d3d3;
+  border-bottom: 1px solid white;
+}
+.multi {
+  color: red;
+  display: flex;
+}
+
+// .date_time{
+//   background-color: red;
+// }
+.icon1 {
+  // background-color: yello;
+  justify-content: center;
+  position: relative;
+  top: 25%;
+  padding: 8px;
+  // left: 50%;
+}
+.r1_tab {
+  margin-right: 5px;
+}
+.radio_tab {
+  margin-right: 20px;
+}
+// .data_item {
+//   cursor: pointer;
+// }
+
+.data_item:hover {
+  background-color: $const-clr;
+}
+.select-icon {
+  margin-left: 7px;
+  font-size: 19px;
+  // cursor: pointer;
+}
+.error-text {
+  font-size: 10.5px;
+  color: #f46a6a;
+}
+#error-boder {
+  border: 1px solid#F46A6A;
+}
+.error-circle {
+  margin-top: 1px;
+  margin-left: 10px;
+  color: #f46a6a;
+  font-size: 15px;
+}
+.sub_module {
+  padding: 6px 10px 8px 10px;
+  border-radius: 5px;
+  color: blue;
+  cursor: pointer;
+}
+.sub_module:hover {
+  background: #e8f5ef;
+}
+
+.list:hover {
+  background-color: rgb(248, 244, 244);
+}
+// .input::-webkit-outer-spin-button,
+// .input::-webkit-inner-spin-button {
+//   -webkit-appearance: none;
+// }
+
+.main-modal {
+  min-width: 60%;
+  margin-top: 70px;
+}
+.d_icon:hover {
+  background-color: red;
+}
+#input {
+  font-size: 10.5px;
+  padding: 6.5px;
+}
+.cu_btn {
+  font-size: 12.5px;
+  height: 35px;
+}
+
+.content-test {
+  width: 90%;
+  margin-left: 24px;
+}
+.custom-modal{
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.custom-modal2{
+  max-width: 65%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.parent_tab {
+  // background-color: #EEF0FC;
+  background-color: #f8f8fb;
+  display: flex;
+  // padding: 5px;
+}
+
+.header_tab {
+  padding: 10px;
+}
+
+.header_tab:hover {
+  // background-color: #DDE2FA;
+  background-color: #d6e8ff !important;
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.main_container {
+  margin: 12px 12px 2px 12px;
+  padding: 18px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input {
+  width: 20px;
+}
+.action_container {
+  margin: 14px 22px 14px 22px;
+  display: flex;
+  justify-content: center;
+}

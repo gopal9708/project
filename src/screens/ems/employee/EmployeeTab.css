@@ -1,0 +1,170 @@
+.card_title {
+  /* // textDecoration: "underline", */
+  display: "flex";
+  font-weight: 700;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  color: black;
+  font-size: 16px;
+  margin: 10px;
+  font-family: "arial, sans-serif";
+}
+.card-title-desc {
+  color: card-title-desc;
+  margin-bottom: 24px;
+}
+
+.nav-item {
+  position: relative;
+  color: dark;
+
+  /* .nav-link {
+      border: none;
+      color: blue($color: #000000);
+  
+      &::after {
+        content: "";
+        background: brown;
+        height: 2px;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: -1px;
+        transition: all 250ms ease 0s;
+        transform: scale(0);
+      }
+  
+      &.active {
+        color: black;
+  
+        &:after {
+          transform: scale(1);
+        }
+      }
+    } */
+}
+
+/* .nav-tabs-custom {
+  .nav-item {
+      position: relative;
+      color: dark;
+  
+      .nav-link {
+        border: none;
+  
+        &::after {
+          content: "";
+          background: blue;
+          height: 2px;
+          position: absolute;
+          width: 100%;
+          left: 0;
+          bottom: -1px;
+          transition: all 250ms ease 0s;
+          transform: scale(0);
+        }
+  
+        &.active {
+          color: primary;
+  
+          &:after {
+            transform: scale(1);
+          }
+        }
+      }
+    }
+} */
+
+/* .vertical-nav {
+  .nav {
+      .nav-link {
+        padding: 24px 16px;
+        text-align: center;
+        margin-bottom: 8px;
+  
+        .nav-icon {
+          font-size: 24px;
+        }
+      }
+    }
+} */
+
+.drop1 {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.6rem 1rem rgba(15, 15, 15, 0.175);
+  animation-name: DropDownSlide;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  z-index: 10;
+  top: 80px;
+  /* // left: 0; */
+  right: 20px;
+  width: 230px;
+  padding: 10px 20 px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  /* // font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; */
+  margin: 10px auto;
+}
+
+.click {
+  /* // list-style:"None"; */
+  list-style-type: none;
+  cursor: "pointer";
+  justify-content: "center";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.click_item:hover {
+  /* // background: red;
+    // color: blue($color: #000000); */
+  border-left: 4px solid rgb(13, 13, 253);
+  opacity: 5;
+  color: blue;
+  padding: 5px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.head::before {
+  content: "";
+  /* // box-shadow: 0 0 0 1px rgba(117, 116, 116, 0.384); */
+
+  z-index: -1;
+
+  position: absolute;
+  top: -10px;
+  right: 45px;
+  height: 20px;
+  width: 20px;
+  background: var(--secondary-bg);
+  transform: rotate(45deg);
+  background: rgb(255, 252, 252);
+}
+  
+/* this code for modal loder resp */
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;  
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

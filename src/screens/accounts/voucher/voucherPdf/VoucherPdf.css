@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    /* border: 1px solid black; */
+    position: relative;
+  }
+  
+  .container:before {
+    content: ""; 
+    background-image: url('./sheet.jpg'); 
+    background-size: cover;  
+    background-position: center;  
+    background-repeat:  repeat;  
+    background-size: 100px;
+    position: absolute;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+  }
+  
+.cash{
+    display: flex;
+    justify-content: center;
+    font-size:xx-large;
+    flex-direction: column;
+    text-align: center;
+}
+.dhtc{
+    display: flex;
+    justify-content: center;
+    font-size:xx-large;
+    color: black;
+    font-weight: bolder;
+}
+.address{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.voucher-no{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items:stretch;
+    font-size:medium;
+}
+.voucher-date{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items:stretch;
+    font-size:medium;
+}
+.branch{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font: weight 2px;
+    margin-left: 200px;
+}
+.entary-date{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    font: weight 2px;
+    margin-left: 200px;
+}
+.code{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items:stretch;
+    font-size:20px;
+    border: 1px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}
+/* .table-m1,
+td {
+  border: 1px solid black;
+  font-size: small;
+  font-weight: bold;
+} */
+/* .table-contain,
+td {
+  border: 1px solid black;
+  text-align: justify;
+  font-size: 15px;
+  flex: auto;
+} */
+.image{
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 170px;
+    margin-top: -9px;
+    margin-left: 10px;
+}

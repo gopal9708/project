@@ -1,0 +1,73 @@
+.calendar-container {
+  margin: 20px auto;
+  max-width: 800px;
+  height: 800px;
+  font-family: sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.rbc-calendar {
+  border: none;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.rbc-header {
+  background-color: #f0f0f0;
+}
+
+.rbc-header > div {
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.rbc-header a {
+  color: #333;
+}
+
+.rbc-header a:hover {
+  color: #000;
+}
+
+.rbc-month-view {
+  border-collapse: separate;
+}
+
+.rbc-row-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rbc-date-cell {
+  flex-basis: 14%;
+  padding: 10px;
+  text-align: center;
+}
+
+.rbc-date-cell > a {
+  display: block;
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rbc-date-cell > a:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.rbc-event {
+  display: block;
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  font-size: 12px;
+}
